@@ -56,7 +56,7 @@ Whith this simple python program you will be able to not procrastinate during th
 
 13 - replace the selected area with the path you have copied 
 
-14 - replace int the path at the lines 46 and 66 the word "your-username" with your username
+14 - replace int the path at the lines 39,46 and 66 the word "your-username" with your username
 
 15 - exit from the root user and login to your everyday user 
 
