@@ -36,16 +36,16 @@ def smetti():
     sito = text_input.get() 
     print(sito)
 
-    f = open ("siti.dat","w")
+    f = open ("/home/your-username/Scrivania/poweroffer/siti.dat","w")
     f.write(sito)
     f.close()
 
     a = open("executable.py","w")
     a.write("#!/usr/bin/env python3 \n")
     a.write("import os,json,lz4.block,time \n")
-    a.write("f = open(\"siti.dat\",\"r\") \n")
+    a.write("f = open(\"/home/your-username/Scrivania/poweroffer/siti.dat\",\"r\") \n")
     a.write("sito = f.read()\n")
-    a.write("d = open(\"/home/usr/snap/firefox/common/.mozilla/firefox/8gnxd9f4.default/sessionstore-backups/recovery.jsonlz4\", \"rb\") \n")
+    a.write("d = open(\"/home/your-username/snap/firefox/common/.mozilla/firefox/fu4mmn5v.default/sessionstore-backups/recovery.jsonlz4\", \"rb\") \n")
     a.write("magic = d.read(8)\n")
     a.write("data = json.loads(lz4.block.decompress(d.read()).decode(\"utf-8\"))\n")
     a.write("d.close()\n")
@@ -63,7 +63,7 @@ def smetti():
     
     b = open("executable.sh", "w")
     b.write("#!/bin/bash\n")
-    b.write("/home/lorenzo/Scrivania/poweroffer/executable.py")
+    b.write("/home/your-username/Scrivania/poweroffer/executable.py")
     b.close()
 
     
