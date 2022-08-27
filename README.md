@@ -29,36 +29,38 @@ Whith this simple python program you will be able to not procrastinate during th
   
 1 - Clone the repository on your machine.
   
-2 - Put the poweroffer extracted folder in the Desktop  
+2 - Put the poweroffer extracted folder in the Desktop
+
+3 - Rename the folder in to poweroffer
   
-0 - Install tkinter with these commands "sudo apt-get install python3-tk" and "pip install tk"
+4 - Install tkinter with these commands "sudo apt-get install python3-tk" and "pip install tk"
 
-1 - Install os,json and time ( but probably these libraries are already installed on your system)
+5 - Install os,json and time ( but probably these libraries are already installed on your system)
 
-2 - become a root user ( with " su " command and continue to do all the operations with root)
+6 - become a root user ( with " su " command and continue to do all the operations with root)
 
-3 - Install lz4.block with this command "pip install lz4"
+7 - Install lz4.block with this command "pip install lz4"
 
-4 - download all the repository files and put the poweroffer folder in your desktop
+8 - open a terminal emulator and write "crontab -e" ( if is your first time you may have to choose witch editor you wanna use)
 
-5 - open a terminal emulator and write "crontab -e" ( if is your first time you may have to choose witch editor you wanna use)
+9 - write at the end of the file this string " * * * * * /bin/bash /home/your-username/Desktop/poweroffer/executable.sh "
 
-6 - write at the end of the file this string " * * * * * /bin/bash /home/your-username/Desktop/poweroffer/executable.sh "
+10 - close the editor and save the changes
 
-7 - close the editor and save the changes
+11 - search for this file "recovery.jsonlz4" and copy it's path
 
-8 - search for this file "recovery.jsonlz4" and copy it's path
-
-9 - edit the main.py file and scroll down until you see this
+12 - edit the main.py file and scroll down until the line 48 
 
 ![Istantanea_2022-07-21_14-07-03](https://user-images.githubusercontent.com/108471111/180209819-e4a4d0e0-80db-4a75-8689-e00b6b1ed44a.png)
 
 
-10 - replace the selected area with the path you have copied 
+13 - replace the selected area with the path you have copied 
 
-11 - exit from the root user and login to your everyday user 
+14 - replace int the path at the lines 46 and 66 the word "your-username" with your username
 
-11 - open a terminal and run the index.py file using " python3 index.py " to execute the program ( use this command every time you wanna run my program :)
+15 - exit from the root user and login to your everyday user 
+
+16 - open a terminal and run the index.py file using " python3 index.py " to execute the program ( use this command every time you wanna run my program :)
 
 
 
@@ -72,5 +74,5 @@ This project is licensed under either of:
 [![gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:lorenzo020406@gmail.com)
 [![github](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/archnotwindows)
 [![twitter](https://img.shields.io/badge/Twitter-007fff?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Lollopro59_)
-[![instagram](https://img.shields.io/badge/Instagram-8f00ff?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/lollog020406/)
+[![instagram](https://img.shields.io/badge/Instagram-8f00ff?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/_not_tech_/)
 [![stackoverflow](https://img.shields.io/badge/StackOverFlow-FF8000?style=for-the-badge&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/19628082/archnotwindows)
