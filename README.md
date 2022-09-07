@@ -23,7 +23,7 @@
 
 Whith this simple python program you will be able to not procrastinate during the day in some sort of website (like Youtube) that you can choose! so try it out!!
 ## Getting Started
-  **WARNING!! to use this software you must use a linux distro and the Firefox web browser**
+  **WARNING!! to make this software work you must use a debian based linux distro and the Firefox web browser**
   
 0 - Install **[Python](https://python.org)** on your machine. **Version 3.10 or higher is required!**
   
