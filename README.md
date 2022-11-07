@@ -33,15 +33,23 @@ Whith this simple python program you will be able to not procrastinate during th
 
 3 - Rename the folder in to poweroffer
   
-4 - Install tkinter with these commands "sudo apt-get install python3-tk" and "pip install tk"
+4 - Install tkinter with these commands 
+  
+      sudo apt-get install python3-tk 
+      pip install tk
 
 5 - Install os,json and time ( but probably these libraries are already installed on your system)
 
 6 - become a root user ( with " su " command and continue to do all the operations with root)
 
-7 - Install lz4.block with this command "pip install lz4"
+7 - Install lz4.block with this command 
+      pip install lz4
 
-8 - open a terminal emulator and write "crontab -e" ( if is your first time you may have to choose witch editor you wanna use)
+8 - open a terminal emulator and write 
+  
+      crontab -e
+  
+  NOTE:if is your first time you may have to choose witch editor you wanna use
 
 9 - write at the end of the file this string " * * * * * /bin/bash /home/your-username/Desktop/poweroffer/executable.sh "
 
