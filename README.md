@@ -49,7 +49,7 @@ Whith this simple python program you will be able to not procrastinate during th
   
       crontab -e
   
-  NOTE:if is your first time you may have to choose witch editor you wanna use
+  *NOTE:if is your first time you may have to choose witch editor you wanna use
 
 9 - write at the end of the file this string " * * * * * /bin/bash /home/your-username/Desktop/poweroffer/executable.sh "
 
@@ -68,8 +68,11 @@ Whith this simple python program you will be able to not procrastinate during th
 
 15 - exit from the root user and login to your everyday user 
 
-16 - open a terminal and run the index.py file using " python3 index.py " to execute the program ( use this command every time you wanna run my program :)
-
+16 - open a terminal and run the index.py file using 
+  
+        python3 index.py
+  
+17 - enjoy my program! :)
 
 
 ## License
